@@ -243,3 +243,10 @@ code { background: rgba(255,255,255,.08); padding: .05rem .35rem; border-radius:
 .beschrifte-num { background: var(--green-mid); color: #fff; border-radius: 50%; width: 26px; height: 26px; display: flex; align-items: center; justify-content: center; font-size: .85rem; font-weight: 700; flex-shrink: 0; }
 .beschrifte-line { color: rgba(255,255,255,.25); letter-spacing: .1em; min-width: 200px; }
 
+/* ── KONZEPT GRID (Benennungsregeln, Folie 6) ── */
+.konzept-grid { display: flex; flex-direction: row; align-items: stretch; gap: 1rem; }
+.konzept-card { display: flex; flex-direction: column; gap: .6rem; border: 1px solid; border-radius: 12px; padding: 1rem 1.2rem; }
+.kk-icon { font-size: 1.8rem; }
+.konzept-vs { display: flex; align-items: center; justify-content: center; font-size: 1.4rem; font-weight: 800; flex-shrink: 0; padding: 0 .5rem; }
+
+
