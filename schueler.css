@@ -1,0 +1,36 @@
+/* ── Schülerversion: Spoiler unsichtbar, nur Lückenlinien ── */
+
+/* Spoilerfelder werden zu Lückenlinien */
+.spoiler {
+  filter: none !important;
+  background: none !important;
+  border: none !important;
+  color: transparent !important;
+  border-bottom: 1.5px solid rgba(255,255,255,0.35) !important;
+  border-radius: 0 !important;
+  padding: 0 2rem !important;
+  cursor: default !important;
+  display: inline-block !important;
+  min-width: 120px;
+  pointer-events: none !important;
+}
+
+/* Klickanzeige ausblenden */
+.zu-item--leer {
+  cursor: default !important;
+}
+.zu-item--leer:hover {
+  background: rgba(255,255,255,0.03) !important;
+  border-color: rgba(255,255,255,0.1) !important;
+}
+
+/* Hinweistext für Klick ausblenden */
+.aufgabe-intro strong { display: none; }
+
+/* Wortkasten auf Folie 11 sichtbar lassen */
+.beschrifte-item .spoiler {
+  min-width: 160px;
+}
+
+/* Merkbox-Tipp auf Folie 11 ausblenden */
+.schuelermodus-hide { display: none !important; }
