@@ -1,511 +1,554 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dateien & Ordner – Informatik Klasse 5</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-<div class="presentation" id="presentation">
+  <div class="presentation" id="presentation">
 
-  <!-- SLIDE 1 – TITEL -->
-  <section class="slide slide--title" id="slide-1" data-slide="1">
-    <div class="slide__content slide__content--centered">
-      <div class="eyebrow">Informatik & Medienbildung · Klasse 5 · Basiskurs Medienbildung BW</div>
-      <h1 class="title-main">Dateien &amp; Ordner<br><span>verstehen und nutzen</span></h1>
-      <p class="title-sub">Bildungsplan 2016 Baden-Württemberg · MB 1 · MB 5 · MB 6</p>
-      <div class="title-meta">
-        <span>⏱ 45 Minuten</span>
-        <span>💻 PC · Datei-Explorer</span>
-        <span>📄 Arbeitsblatt AB 1</span>
+    <!-- SLIDE 1 – TITEL -->
+    <section class="slide slide--title" id="slide-1" data-slide="1">
+      <div class="slide__content slide__content--centered">
+        <div class="eyebrow">Informatik & Medienbildung · Klasse 5 · Basiskurs Medienbildung BW</div>
+        <h1 class="title-main">Dateien &amp; Ordner<br><span>verstehen und nutzen</span></h1>
+        <p class="title-sub">Bildungsplan 2016 Baden-Württemberg · MB 1 · MB 5 · MB 6</p>
+        <div class="title-meta">
+          <span>⏱ 45 Minuten</span>
+          <span>💻 PC · Datei-Explorer</span>
+          <span>📄 Arbeitsblatt AB 1</span>
+        </div>
+        <div class="title-lf">
+          <span class="lf-label">Stundenziel</span>
+          <span>Ich kann selbstständig Ordner anlegen, Dateien benennen und speichern.</span>
+        </div>
       </div>
-      <div class="title-lf">
-        <span class="lf-label">Stundenziel</span>
-        <span>Ich kann selbstständig Ordner anlegen, Dateien benennen und speichern.</span>
-      </div>
-    </div>
-    <div class="bg-grid"></div>
-  </section>
+      <div class="bg-grid"></div>
+    </section>
 
-  <!-- SLIDE 2 – EINSTIEG -->
-  <section class="slide" id="slide-2" data-slide="2">
-    <div class="slide__content">
-      <div class="phase-badge phase--einstieg">Phase 1 · Einstieg · 5 Min.</div>
-      <h2 class="slide__heading">Was ist hier das Problem?</h2>
-      <div class="einstieg-layout">
-        <div class="desktop-chaos">
-          <div class="chaos-label">🖥️ Desktop einer 5.-Klässlerin:</div>
-          <div class="chaos-files">
-            <span class="file-icon">📄 hausaufgaben.docx</span>
-            <span class="file-icon">📄 bild1.jpg</span>
-            <span class="file-icon">📄 NEU NEU.docx</span>
-            <span class="file-icon">📄 asdfgh.pptx</span>
-            <span class="file-icon">📄 Deutsch Referat FINAL(2).docx</span>
-            <span class="file-icon">📄 unbenannt.jpg</span>
-            <span class="file-icon">📄 Mathe HA 23.04.docx</span>
-            <span class="file-icon">📄 kopie von kopie.docx</span>
-            <span class="file-icon">📄 bild neu2.png</span>
-            <span class="file-icon">📄 Praesentation endgültig FINAL.pptx</span>
-            <span class="file-icon">📄 ?.docx</span>
-            <span class="file-icon">📄 test123.docx</span>
-          </div>
-        </div>
-        <div class="screenshot-placeholder" id="sp-einstieg">
-          <div class="sp-icon">📷</div>
-          <div class="sp-label">Screenshot: Echter unordentlicher Ordner</div>
-          <div class="sp-hint">Bild hier einfügen (Datei: einstieg.png im selben Ordner)</div>
-          <img src="einstieg.png" alt="Unordentlicher Ordner" />
-        </div>
-      </div>
-      <div class="impulse-row">
-        <div class="impulse-box">
-          <span class="imp-icon">💬</span>
-          <p>Könnt ihr die <strong>Hausaufgaben-Datei von letzter Woche</strong> finden?</p>
-        </div>
-        <div class="impulse-box impulse-box--frage">
-          <span class="imp-icon">❓</span>
-          <p>Was ist hier das <strong>Problem</strong>? Was würdest du <strong>ändern</strong>?</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SLIDE 3 – THEORIE: DATEI vs ORDNER -->
-  <section class="slide" id="slide-3" data-slide="3">
-    <div class="slide__content">
-      <div class="phase-badge phase--erarbeitung">Phase 2 · Erarbeitung I · Theorie · 10 Min.</div>
-      <h2 class="slide__heading">Datei vs. Ordner – Was ist der Unterschied?</h2>
-      <div class="konzept-grid">
-        <div class="konzept-card konzept-card--ordner">
-          <div class="kk-icon">📁</div>
-          <h3>Ordner</h3>
-          <p>Ein <strong>Behälter</strong> für Dateien und andere Ordner.</p>
-          <div class="kk-analogie">= Hefter / Schublade</div>
-          <div class="kk-examples"><span>.Informatik_5</span><span>Bilder</span><span>Aufgaben</span></div>
-        </div>
-        <div class="konzept-vs">VS.</div>
-        <div class="konzept-card konzept-card--datei">
-          <div class="kk-icon">📄</div>
-          <h3>Datei</h3>
-          <p>Ein <strong>einzelnes gespeichertes Dokument</strong>, Bild oder Programm.</p>
-          <div class="kk-analogie">= Blatt Papier im Hefter</div>
-          <div class="kk-examples"><span>bericht.docx</span><span>foto.jpg</span><span>praesi.pptx</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SLIDE 4 – DATEI-EXPLORER AUFBAU (NEU) -->
-  <section class="slide" id="slide-4" data-slide="4">
-    <div class="slide__content">
-      <div class="phase-badge phase--erarbeitung">Phase 2 · Erarbeitung I · Datei-Explorer · 10 Min.</div>
-      <h2 class="slide__heading">Der Datei-Explorer – Aufbau &amp; Bereiche</h2>
-      <div class="explorer-split">
-        <div class="explorer-info">
-          <div class="explorer-aufbau">
-            <div class="ea-label">🔍 Öffnen: <kbd>⊞ Windows</kbd> + <kbd>E</kbd></div>
-            <div class="ea-bereiche">
-              <div class="ea-bereich"><span class="ea-num">①</span> <strong>Navigationsbereich</strong> (links) – Ordnerstruktur / Laufwerke</div>
-              <div class="ea-bereich"><span class="ea-num">②</span> <strong>Inhaltsbereich</strong> (rechts) – Dateien &amp; Ordner des gewählten Ordners</div>
-              <div class="ea-bereich"><span class="ea-num">③</span> <strong>Adressleiste</strong> (oben) – zeigt den aktuellen Pfad</div>
+    <!-- SLIDE 2 – EINSTIEG -->
+    <section class="slide" id="slide-2" data-slide="2">
+      <div class="slide__content">
+        <div class="phase-badge phase--einstieg">Phase 1 · Einstieg · 5 Min.</div>
+        <h2 class="slide__heading">Was ist hier das Problem?</h2>
+        <div class="einstieg-layout">
+          <div class="desktop-chaos">
+            <div class="chaos-label">🖥️ Desktop einer 5.-Klässlerin:</div>
+            <div class="chaos-files">
+              <span class="file-icon">📄 hausaufgaben.docx</span>
+              <span class="file-icon">📄 bild1.jpg</span>
+              <span class="file-icon">📄 NEU NEU.docx</span>
+              <span class="file-icon">📄 asdfgh.pptx</span>
+              <span class="file-icon">📄 Deutsch Referat FINAL(2).docx</span>
+              <span class="file-icon">📄 unbenannt.jpg</span>
+              <span class="file-icon">📄 Mathe HA 23.04.docx</span>
+              <span class="file-icon">📄 kopie von kopie.docx</span>
+              <span class="file-icon">📄 bild neu2.png</span>
+              <span class="file-icon">📄 Praesentation endgültig FINAL.pptx</span>
+              <span class="file-icon">📄 ?.docx</span>
+              <span class="file-icon">📄 test123.docx</span>
             </div>
           </div>
-          <div class="merkbox" style="margin-top:1rem">💡 Der <strong>Pfad</strong> zeigt dir genau, wo eine Datei liegt, z.&nbsp;B. <code>H:\Informatik_5\Aufgaben\</code></div>
+          <div class="screenshot-placeholder" id="sp-einstieg">
+            <div class="sp-icon">📷</div>
+            <div class="sp-label">Screenshot: Echter unordentlicher Ordner</div>
+            <div class="sp-hint">Bild hier einfügen (Datei: einstieg.png im selben Ordner)</div>
+            <img src="einstieg.png" alt="Unordentlicher Ordner" />
+          </div>
         </div>
-        <div class="screenshot-placeholder" id="sp-explorer">
-          <div class="sp-icon">📷</div>
-          <div class="sp-label">Screenshot: Datei-Explorer mit Beschriftung</div>
-          <div class="sp-hint">Bild hier einfügen (Datei: explorer.png im selben Ordner)</div>
-          <img src="explorer.png" alt="Datei-Explorer Aufbau" />
+        <div class="impulse-row">
+          <div class="impulse-box">
+            <span class="imp-icon">💬</span>
+            <p>Könnt ihr die <strong>Hausaufgaben-Datei von letzter Woche</strong> finden?</p>
+          </div>
+          <div class="impulse-box impulse-box--frage">
+            <span class="imp-icon">❓</span>
+            <p>Was ist hier das <strong>Problem</strong>? Was würdest du <strong>ändern</strong>?</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- SLIDE 5 – BENENNUNGSREGELN -->
-  <section class="slide" id="slide-5" data-slide="5">
-    <div class="slide__content">
-      <div class="phase-badge phase--erarbeitung">Phase 2 · Erarbeitung I · Benennungsregeln · 10 Min.</div>
-      <h2 class="slide__heading">Regeln für gute Datei- &amp; Ordnernamen</h2>
-      <div class="konzept-grid" style="flex:1">
-        <div class="konzept-card" style="border-color:rgba(46,139,87,.4);background:rgba(46,139,87,.07);flex:1">
-          <div class="kk-icon">✅</div>
-          <h3 style="color:#6EE0A0">Gute Namen</h3>
-          <div style="display:flex;flex-direction:column;gap:.5rem;text-align:left;font-size:.88rem">
-            <div>📌 Aussagekräftig: <code>Mathe_HA_Kapitel3.docx</code></div>
-            <div>📌 Datum wenn sinnvoll: <code>Referat_Rom_2025-04.pptx</code></div>
-            <div>📌 Unterstrich statt Leerzeichen: <code>Mein_Bericht.docx</code></div>
-            <div>📌 Nur Buchstaben, Zahlen, Bindestrich, Unterstrich</div>
+    <!-- SLIDE 3 – THEORIE: DATEI vs ORDNER -->
+    <section class="slide" id="slide-3" data-slide="3">
+      <div class="slide__content">
+        <div class="phase-badge phase--erarbeitung">Phase 2 · Erarbeitung I · Theorie · 10 Min.</div>
+        <h2 class="slide__heading">Datei vs. Ordner – Was ist der Unterschied?</h2>
+        <div class="konzept-grid">
+          <div class="konzept-card konzept-card--ordner">
+            <div class="kk-icon">📁</div>
+            <h3>Ordner</h3>
+            <p>Ein <strong>Behälter</strong> für Dateien und andere Ordner.</p>
+            <div class="kk-analogie">= Hefter / Schublade</div>
+            <div class="kk-examples"><span>.Informatik_5</span><span>Bilder</span><span>Aufgaben</span></div>
           </div>
-        </div>
-        <div class="konzept-vs" style="color:var(--orange)">VS.</div>
-        <div class="konzept-card" style="border-color:rgba(200,90,0,.4);background:rgba(200,90,0,.07);flex:1">
-          <div class="kk-icon">❌</div>
-          <h3 style="color:#F5A060">Schlechte Namen</h3>
-          <div style="display:flex;flex-direction:column;gap:.5rem;text-align:left;font-size:.88rem">
-            <div>⚠️ Nichtssagend: <code>unbenannt.docx</code>, <code>NEU.docx</code></div>
-            <div>⚠️ Sonderzeichen: <code>Aufsätz!&amp;Co.docx</code></div>
-            <div>⚠️ Leerzeichen am Anfang: <code> bericht.docx</code></div>
-            <div>⚠️ Durchnummeriert ohne Inhalt: <code>datei1, datei2, datei3</code></div>
+          <div class="konzept-vs">VS.</div>
+          <div class="konzept-card konzept-card--datei">
+            <div class="kk-icon">📄</div>
+            <h3>Datei</h3>
+            <p>Ein <strong>einzelnes gespeichertes Dokument</strong>, Bild oder Programm.</p>
+            <div class="kk-analogie">= Blatt Papier im Hefter</div>
+            <div class="kk-examples"><span>bericht.docx</span><span>foto.jpg</span><span>praesi.pptx</span></div>
           </div>
         </div>
       </div>
-      <div class="merkbox">💡 <strong>Faustregel:</strong> Kann ich in 6 Monaten noch erkennen, was in dieser Datei ist?</div>
-    </div>
-  </section>
+    </section>
 
-  <!-- SLIDE 6 – DATEIERWEITERUNGEN -->
-  <section class="slide" id="slide-6" data-slide="6">
-    <div class="slide__content">
-      <div class="phase-badge phase--erarbeitung">Phase 2 · Erarbeitung I · Dateierweiterungen · 10 Min.</div>
-      <h2 class="slide__heading">Dateierweiterungen – Was steckt hinter dem Punkt?</h2>
-      <p class="aufgabe-intro">Die Dateiendung zeigt, <strong>welches Programm</strong> eine Datei öffnet und was sie enthält.</p>
-      <div class="endungen-grid" style="max-width:100%;flex:1">
-        <div class="endungen-col">
-          <div class="endung-item"><span class="endung-tag">.docx</span></div>
-          <div class="endung-item"><span class="endung-tag">.pptx</span></div>
-          <div class="endung-item"><span class="endung-tag">.jpg / .png</span></div>
-          <div class="endung-item"><span class="endung-tag">.xlsx</span></div>
-          <div class="endung-item"><span class="endung-tag">.mp3</span></div>
-          <div class="endung-item"><span class="endung-tag">.pdf</span></div>
-        </div>
-        <div class="endungen-arrows">→<br/>→<br/>→<br/>→<br/>→<br/>→</div>
-        <div class="endungen-col">
-          <div class="prog-item">🔵 Microsoft Word – Textdokument</div>
-          <div class="prog-item">🟣 Microsoft PowerPoint – Präsentation</div>
-          <div class="prog-item">🖼️ Bildbetrachter (Windows Fotos) – Bild</div>
-          <div class="prog-item">🟠 Microsoft Excel – Tabelle</div>
-          <div class="prog-item">🎵 Musikplayer – Audiodatei</div>
-          <div class="prog-item">🔴 Adobe Reader / Browser – PDF-Dokument</div>
+    <!-- SLIDE 4 – DATEI-EXPLORER AUFBAU (NEU) -->
+    <section class="slide" id="slide-4" data-slide="4">
+      <div class="slide__content">
+        <div class="phase-badge phase--erarbeitung">Phase 2 · Erarbeitung I · Datei-Explorer · 10 Min.</div>
+        <h2 class="slide__heading">Der Datei-Explorer – Aufbau &amp; Bereiche</h2>
+        <div class="explorer-split">
+          <div class="explorer-info">
+            <div class="explorer-aufbau">
+              <div class="ea-label">🔍 Öffnen: <kbd>⊞ Windows</kbd> + <kbd>E</kbd></div>
+              <div class="ea-bereiche">
+                <div class="ea-bereich"><span class="ea-num">①</span> <strong>Navigationsbereich</strong> (links) –
+                  Ordnerstruktur / Laufwerke</div>
+                <div class="ea-bereich"><span class="ea-num">②</span> <strong>Inhaltsbereich</strong> (rechts) – Dateien
+                  &amp; Ordner des gewählten Ordners</div>
+                <div class="ea-bereich"><span class="ea-num">③</span> <strong>Adressleiste</strong> (oben) – zeigt den
+                  aktuellen Pfad</div>
+              </div>
+            </div>
+            <div class="merkbox" style="margin-top:1rem">💡 Der <strong>Pfad</strong> zeigt dir genau, wo eine Datei
+              liegt, z.&nbsp;B. <code>H:\Informatik_5\Aufgaben\</code></div>
+          </div>
+          <div class="screenshot-placeholder" id="sp-explorer">
+            <div class="sp-icon">📷</div>
+            <div class="sp-label">Screenshot: Datei-Explorer mit Beschriftung</div>
+            <div class="sp-hint">Bild hier einfügen (Datei: explorer.png im selben Ordner)</div>
+            <img src="explorer.png" alt="Datei-Explorer Aufbau" />
+          </div>
         </div>
       </div>
-      <div class="merkbox">💡 <strong>Merkhilfe:</strong> Dateiname<strong>.</strong>Erweiterung – z. B. <code>Hausaufgaben<strong>.docx</strong></code> → Word-Datei</div>
-    </div>
-  </section>
+    </section>
 
-  <!-- SLIDE 7 – SHORTCUTS -->
-  <section class="slide" id="slide-7" data-slide="7">
-    <div class="slide__content">
-      <div class="phase-badge phase--erarbeitung">Phase 2 · Erarbeitung I · Shortcuts · 10 Min.</div>
-      <h2 class="slide__heading">Die wichtigsten Tastenkürzel</h2>
-      <div class="shortcuts-grid">
-        <div class="shortcut-card shortcut-card--copy">
-          <div class="sc-keys"><kbd>Strg</kbd>+<kbd>C</kbd></div>
-          <div class="sc-icon">📋</div>
-          <div class="sc-name">Kopieren</div>
-          <div class="sc-desc">Das Original bleibt am alten Ort erhalten – <strong>eine Kopie</strong> wird erstellt.</div>
-        </div>
-        <div class="shortcut-card shortcut-card--cut">
-          <div class="sc-keys"><kbd>Strg</kbd>+<kbd>X</kbd></div>
-          <div class="sc-icon">✂️</div>
-          <div class="sc-name">Ausschneiden</div>
-          <div class="sc-desc">Das Original wird <strong>entfernt</strong> und woanders eingefügt.</div>
-        </div>
-        <div class="shortcut-card shortcut-card--paste">
-          <div class="sc-keys"><kbd>Strg</kbd>+<kbd>V</kbd></div>
-          <div class="sc-icon">📌</div>
-          <div class="sc-name">Einfügen</div>
-          <div class="sc-desc">Fügt das Kopierte oder Ausgeschnittene <strong>an der neuen Stelle</strong> ein.</div>
-        </div>
-        <div class="shortcut-card shortcut-card--undo">
-          <div class="sc-keys"><kbd>Strg</kbd>+<kbd>Z</kbd></div>
-          <div class="sc-icon">↩️</div>
-          <div class="sc-name">Rückgängig</div>
-          <div class="sc-desc">Macht den <strong>letzten Schritt</strong> rückgängig. Sehr nützlich!</div>
-        </div>
-        <div class="shortcut-card shortcut-card--all">
-          <div class="sc-keys"><kbd>Strg</kbd>+<kbd>A</kbd></div>
-          <div class="sc-icon">🔲</div>
-          <div class="sc-name">Alles auswählen</div>
-          <div class="sc-desc">Markiert <strong>alle Dateien</strong> im aktuellen Ordner.</div>
-        </div>
-        <div class="shortcut-card shortcut-card--explorer">
-          <div class="sc-keys"><kbd>⊞</kbd>+<kbd>E</kbd></div>
-          <div class="sc-icon">📂</div>
-          <div class="sc-name">Datei-Explorer</div>
-          <div class="sc-desc">Öffnet den Datei-Explorer <strong>sofort</strong>.</div>
-        </div>
-      </div>
-      <div class="merkbox">
-        💡 <strong>Merkhilfe:</strong> C = <em>C</em>opy · X = Schere (Kreuz) · V = klebt ein
-      </div>
-    </div>
-  </section>
-
-  <!-- SLIDE 8 – AUFGABE 1 -->
-  <section class="slide slide--aufgabe" id="slide-8" data-slide="8">
-    <div class="slide__content">
-      <div class="phase-badge phase--aufgabe">⚙️ Aufgabe 1 · Begriffe zuordnen · AB 1</div>
-      <h2 class="slide__heading">Was ist was? Ordne zu! <span class="mb-tag">[MB 1]</span></h2>
-      <p class="aufgabe-intro">Schreibe die passende Zahl in das Kästchen. <strong>Klicke auf eine Erklärung</strong> um die Lösung aufzudecken! 👆</p>
-      <div class="zuordnung-layout">
-        <div class="zuordnung-col">
-          <div class="zu-header">Begriffe</div>
-          <div class="zu-item"><span class="zu-num">1</span> Datei</div>
-          <div class="zu-item"><span class="zu-num">2</span> Ordner</div>
-          <div class="zu-item"><span class="zu-num">3</span> Dateiname</div>
-          <div class="zu-item"><span class="zu-num">4</span> Dateiendung</div>
-          <div class="zu-item"><span class="zu-num">5</span> Datei-Explorer</div>
-          <div class="zu-item"><span class="zu-num">6</span> Schüleraccount</div>
-          <div class="zu-item"><span class="zu-num">7</span> Kopieren (Strg+C)</div>
-          <div class="zu-item"><span class="zu-num">8</span> Ausschneiden (Strg+X)</div>
-          <div class="zu-item"><span class="zu-num">9</span> Einfügen (Strg+V)</div>
-        </div>
-        <div class="zuordnung-col">
-          <div class="zu-header">Erklärungen</div>
-          <div class="zu-item zu-item--leer" data-answer="5"><span class="zu-box">[ ]</span> Das Programm in Windows, mit dem ich Dateien und Ordner verwalte.</div>
-          <div class="zu-item zu-item--leer" data-answer="2"><span class="zu-box">[ ]</span> Ein Behälter für andere Dateien oder Ordner – wie ein Hefter.</div>
-          <div class="zu-item zu-item--leer" data-answer="6"><span class="zu-box">[ ]</span> Mein persönlicher Bereich auf dem Schulcomputer (H:\ oder S:\).</div>
-          <div class="zu-item zu-item--leer" data-answer="4"><span class="zu-box">[ ]</span> Die Abkürzung hinter dem Punkt im Dateinamen, z. B. .docx oder .jpg.</div>
-          <div class="zu-item zu-item--leer" data-answer="1"><span class="zu-box">[ ]</span> Ein einzelnes gespeichertes Dokument, Bild oder Programm.</div>
-          <div class="zu-item zu-item--leer" data-answer="3"><span class="zu-box">[ ]</span> Der selbst gewählte Name einer Datei, z. B. „Meine_Geschichte".</div>
-          <div class="zu-item zu-item--leer" data-answer="9"><span class="zu-box">[ ]</span> Fügt die zuletzt kopierte oder ausgeschnittene Datei an der neuen Stelle ein.</div>
-          <div class="zu-item zu-item--leer" data-answer="7"><span class="zu-box">[ ]</span> Datei wird dupliziert – das Original bleibt am alten Ort erhalten.</div>
-          <div class="zu-item zu-item--leer" data-answer="8"><span class="zu-box">[ ]</span> Datei wird aus dem alten Ort entfernt und woanders eingefügt.</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SLIDE 9 – AB 2: SPICKZETTEL -->
-  <section class="slide slide--aufgabe" id="slide-9" data-slide="9">
-    <div class="slide__content">
-      <div class="phase-badge phase--aufgabe">⚙️ Aufgabe 2 · Shortcuts-Spickzettel · AB 1</div>
-      <h2 class="slide__heading">Mein Shortcuts-Spickzettel <span class="mb-tag">[MB 1]</span></h2>
-      <p class="aufgabe-intro">Trage die fehlenden Informationen ein und schneide den Spickzettel aus – er hilft dir in jeder Stunde!</p>
-      <div class="spickzettel">
-        <div class="sz-header">✂️ – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – –</div>
-        <div class="sz-title">📌 Mein Shortcuts-Spickzettel</div>
-        <div class="sz-table">
-          <div class="sz-row sz-row--head">
-            <span>Tastenkürzel</span><span>Aktion</span><span>Merkhilfe</span>
-          </div>
-          <div class="sz-row">
-            <span><kbd>Strg</kbd>+<kbd>C</kbd></span>
-            <span><span class="spoiler">Kopieren</span></span>
-            <span>Original bleibt erhalten</span>
-          </div>
-          <div class="sz-row">
-            <span><kbd>Strg</kbd>+<kbd>X</kbd></span>
-            <span><span class="spoiler">Ausschneiden</span></span>
-            <span>Original wird entfernt</span>
-          </div>
-          <div class="sz-row">
-            <span><kbd>Strg</kbd>+<kbd>V</kbd></span>
-            <span><span class="spoiler">Einfügen</span></span>
-            <span>Fügt ein</span>
-          </div>
-          <div class="sz-row">
-            <span><kbd>Strg</kbd>+<kbd>Z</kbd></span>
-            <span>Rükgängig</span>
-            <span>Letzten Schritt zurück</span>
-          </div>
-          <div class="sz-row">
-            <span><kbd>Strg</kbd>+<kbd>A</kbd></span>
-            <span>Alles auswählen</span>
-            <span>Alle Dateien markieren</span>
-          </div>
-          <div class="sz-row">
-            <span><kbd>⊞</kbd>+<kbd>E</kbd></span>
-            <span>Datei-Explorer öffnen</span>
-            <span>Schnell in den Explorer</span>
-          </div>
-        </div>
-        <div class="sz-footer">✂️ – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – –</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SLIDE 10 – AB 3: ORDNERSTRUKTUR -->
-  <section class="slide slide--aufgabe" id="slide-10" data-slide="10">
-    <div class="slide__content">
-      <div class="phase-badge phase--aufgabe">⚙️ Aufgabe 3 · Ordnerstruktur anlegen · AB 1 · EA 15 Min.</div>
-      <h2 class="slide__heading">Ordnerstruktur anlegen &amp; Shortcuts üben <span class="mb-tag">[MB 1, MB 5]</span></h2>
-      <div class="aufgabe2-layout">
-        <div class="schritte-col">
-          <div class="schritt-item schritt-item--ordner">
-            <span class="schritt-num">①</span>
-            <div><strong>Datei-Explorer öffnen</strong><br/>Drücke <kbd>⊞</kbd> + <kbd>E</kbd></div>
-          </div>
-          <div class="schritt-item schritt-item--ordner">
-            <span class="schritt-num">②</span>
-            <div><strong>Schüleraccount öffnen</strong><br/>Laufwerk H:\ oder S:\</div>
-          </div>
-          <div class="schritt-item schritt-item--ordner">
-            <span class="schritt-num">③</span>
-            <div><strong>Neuen Ordner anlegen:</strong><br/><code>Informatik_5</code></div>
-          </div>
-          <div class="schritt-item schritt-item--ordner">
-            <span class="schritt-num">④</span>
-            <div><strong>3 Unterordner erstellen:</strong><br/><code>Aufgaben</code> · <code>Praesentationen</code> · <code>Bilder</code></div>
-          </div>
-          <div class="schritt-item schritt-item--copy">
-            <span class="schritt-num">⑤</span>
-            <div>
-              <strong>KOPIEREN:</strong> Klicke eine Datei an →
-              <kbd>Strg</kbd>+<kbd>C</kbd> →
-              Ordner „Aufgaben" öffnen →
-              <kbd>Strg</kbd>+<kbd>V</kbd>
-              <div class="check-frage">✏️ Ist die Datei noch am alten Ort? <strong>Ja / Nein</strong></div>
+    <!-- SLIDE 5 – BENENNUNGSREGELN -->
+    <section class="slide" id="slide-5" data-slide="5">
+      <div class="slide__content">
+        <div class="phase-badge phase--erarbeitung">Phase 2 · Erarbeitung I · Benennungsregeln · 10 Min.</div>
+        <h2 class="slide__heading">Regeln für gute Datei- &amp; Ordnernamen</h2>
+        <div class="konzept-grid" style="flex:1">
+          <div class="konzept-card" style="border-color:rgba(46,139,87,.4);background:rgba(46,139,87,.07);flex:1">
+            <div class="kk-icon">✅</div>
+            <h3 style="color:#6EE0A0">Gute Namen</h3>
+            <div style="display:flex;flex-direction:column;gap:.5rem;text-align:left;font-size:.88rem">
+              <div>📌 Aussagekräftig: <code>Mathe_HA_Kapitel3.docx</code></div>
+              <div>📌 Datum wenn sinnvoll: <code>Referat_Rom_2025-04.pptx</code></div>
+              <div>📌 Unterstrich statt Leerzeichen: <code>Mein_Bericht.docx</code></div>
+              <div>📌 Nur Buchstaben, Zahlen, Bindestrich, Unterstrich</div>
             </div>
           </div>
-          <div class="schritt-item schritt-item--cut">
-            <span class="schritt-num">⑥</span>
-            <div>
-              <strong>AUSSCHNEIDEN:</strong> Dieselbe Datei →
-              <kbd>Strg</kbd>+<kbd>X</kbd> →
-              Ordner „Praesentationen" →
-              <kbd>Strg</kbd>+<kbd>V</kbd>
-              <div class="check-frage">✏️ Ist die Datei noch am alten Ort? <strong>Ja / Nein</strong></div>
+          <div class="konzept-vs" style="color:var(--orange)">VS.</div>
+          <div class="konzept-card" style="border-color:rgba(200,90,0,.4);background:rgba(200,90,0,.07);flex:1">
+            <div class="kk-icon">❌</div>
+            <h3 style="color:#F5A060">Schlechte Namen</h3>
+            <div style="display:flex;flex-direction:column;gap:.5rem;text-align:left;font-size:.88rem">
+              <div>⚠️ Nichtssagend: <code>unbenannt.docx</code>, <code>NEU.docx</code></div>
+              <div>⚠️ Sonderzeichen: <code>Aufsätz!&amp;Co.docx</code></div>
+              <div>⚠️ Leerzeichen am Anfang: <code> bericht.docx</code></div>
+              <div>⚠️ Durchnummeriert ohne Inhalt: <code>datei1, datei2, datei3</code></div>
             </div>
           </div>
-          <div class="schritt-item schritt-item--reflect">
-            <span class="schritt-num">⑦</span>
-            <div><strong>Erkläre den Unterschied in einem Satz:</strong><br/>
-            <span class="spoiler" style="margin-top:.4rem;display:inline-block">Beim Kopieren bleibt die Originaldatei erhalten, beim Ausschneiden wird sie an den neuen Ort verschoben.</span></div>
-          </div>
-          <div class="schritt-item schritt-item--partner">
-            <span class="schritt-num">⑧</span>
-            <div><strong>Zeige deiner Sitznachbarin / deinem Sitznachbarn</strong> die Struktur. Kontrolliert gegenseitig!</div>
-          </div>
         </div>
-        <div class="struktur-viz">
-          <div class="viz-label">🗂️ Ziel-Struktur</div>
-          <div class="viz-tree">
-            <div class="vt-root">📁 Schüleraccount (H:\)</div>
-            <div class="vt-level1">📁 Informatik_5</div>
-            <div class="vt-level2">📁 Aufgaben</div>
-            <div class="vt-level2">📁 Praesentationen</div>
-            <div class="vt-level2">📁 Bilder</div>
-          </div>
-        </div>
+        <div class="merkbox">💡 <strong>Faustregel:</strong> Kann ich in 6 Monaten noch erkennen, was in dieser Datei
+          ist?</div>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <!-- SLIDE 6 – DATEIERWEITERUNGEN -->
+    <section class="slide" id="slide-6" data-slide="6">
+      <div class="slide__content">
+        <div class="phase-badge phase--erarbeitung">Phase 2 · Erarbeitung I · Dateierweiterungen · 10 Min.</div>
+        <h2 class="slide__heading">Dateierweiterungen – Was steckt hinter dem Punkt?</h2>
+        <p class="aufgabe-intro">Die Dateiendung zeigt, <strong>welches Programm</strong> eine Datei öffnet und was sie
+          enthält.</p>
+        <div class="endungen-grid" style="max-width:100%;flex:1">
+          <div class="endungen-col">
+            <div class="endung-item"><span class="endung-tag">.docx</span></div>
+            <div class="endung-item"><span class="endung-tag">.pptx</span></div>
+            <div class="endung-item"><span class="endung-tag">.jpg / .png</span></div>
+            <div class="endung-item"><span class="endung-tag">.xlsx</span></div>
+            <div class="endung-item"><span class="endung-tag">.mp3</span></div>
+            <div class="endung-item"><span class="endung-tag">.pdf</span></div>
+          </div>
+          <div class="endungen-arrows">→<br />→<br />→<br />→<br />→<br />→</div>
+          <div class="endungen-col">
+            <div class="prog-item">🔵 Microsoft Word – Textdokument</div>
+            <div class="prog-item">🟣 Microsoft PowerPoint – Präsentation</div>
+            <div class="prog-item">🖼️ Bildbetrachter (Windows Fotos) – Bild</div>
+            <div class="prog-item">🟠 Microsoft Excel – Tabelle</div>
+            <div class="prog-item">🎵 Musikplayer – Audiodatei</div>
+            <div class="prog-item">🔴 Adobe Reader / Browser – PDF-Dokument</div>
+          </div>
+        </div>
+        <div class="merkbox">💡 <strong>Merkhilfe:</strong> Dateiname<strong>.</strong>Erweiterung – z. B.
+          <code>Hausaufgaben<strong>.docx</strong></code> → Word-Datei</div>
+      </div>
+    </section>
 
-  <!-- SLIDE 11 – AB 4: BESCHRIFTE DEN DATEI-EXPLORER -->
-  <section class="slide slide--aufgabe" id="slide-11" data-slide="11">
-    <div class="slide__content">
-      <div class="phase-badge phase--aufgabe">⚙️ Aufgabe 4 · Beschrifte den Datei-Explorer · AB 1</div>
-      <h2 class="slide__heading">Beschrifte den Datei-Explorer <span class="mb-tag">[MB 1]</span></h2>
-      <p class="aufgabe-intro">Die drei Bereiche im Datei-Explorer sind mit Nummern markiert. Schreibe den richtigen Begriff aus dem Wortkasten in die Zeile.</p>
-      <div class="explorer-split">
-        <div class="explorer-info">
-          <div class="merkbox" style="margin-bottom:1rem">📓 <strong>Wortkasten:</strong> &nbsp; Adressleiste &nbsp;·&nbsp; Navigationsbereich &nbsp;·&nbsp; Inhaltsbereich</div>
-          <div class="beschrifte-grid">
-            <div class="beschrifte-item">
-              <span class="beschrifte-num">1</span>
-              <span class="spoiler">Adressleiste</span>
+    <!-- SLIDE 7 – SHORTCUTS -->
+    <section class="slide" id="slide-7" data-slide="7">
+      <div class="slide__content">
+        <div class="phase-badge phase--erarbeitung">Phase 2 · Erarbeitung I · Shortcuts · 10 Min.</div>
+        <h2 class="slide__heading">Die wichtigsten Tastenkürzel</h2>
+        <div class="shortcuts-grid">
+          <div class="shortcut-card shortcut-card--copy">
+            <div class="sc-keys"><kbd>Strg</kbd>+<kbd>C</kbd></div>
+            <div class="sc-icon">📋</div>
+            <div class="sc-name">Kopieren</div>
+            <div class="sc-desc">Das Original bleibt am alten Ort erhalten – <strong>eine Kopie</strong> wird erstellt.
             </div>
-            <div class="beschrifte-item">
-              <span class="beschrifte-num">2</span>
-              <span class="spoiler">Navigationsbereich</span>
+          </div>
+          <div class="shortcut-card shortcut-card--cut">
+            <div class="sc-keys"><kbd>Strg</kbd>+<kbd>X</kbd></div>
+            <div class="sc-icon">✂️</div>
+            <div class="sc-name">Ausschneiden</div>
+            <div class="sc-desc">Das Original wird <strong>entfernt</strong> und woanders eingefügt.</div>
+          </div>
+          <div class="shortcut-card shortcut-card--paste">
+            <div class="sc-keys"><kbd>Strg</kbd>+<kbd>V</kbd></div>
+            <div class="sc-icon">📌</div>
+            <div class="sc-name">Einfügen</div>
+            <div class="sc-desc">Fügt das Kopierte oder Ausgeschnittene <strong>an der neuen Stelle</strong> ein.</div>
+          </div>
+          <div class="shortcut-card shortcut-card--undo">
+            <div class="sc-keys"><kbd>Strg</kbd>+<kbd>Z</kbd></div>
+            <div class="sc-icon">↩️</div>
+            <div class="sc-name">Rückgängig</div>
+            <div class="sc-desc">Macht den <strong>letzten Schritt</strong> rückgängig. Sehr nützlich!</div>
+          </div>
+          <div class="shortcut-card shortcut-card--all">
+            <div class="sc-keys"><kbd>Strg</kbd>+<kbd>A</kbd></div>
+            <div class="sc-icon">🔲</div>
+            <div class="sc-name">Alles auswählen</div>
+            <div class="sc-desc">Markiert <strong>alle Dateien</strong> im aktuellen Ordner.</div>
+          </div>
+          <div class="shortcut-card shortcut-card--explorer">
+            <div class="sc-keys"><kbd>⊞</kbd>+<kbd>E</kbd></div>
+            <div class="sc-icon">📂</div>
+            <div class="sc-name">Datei-Explorer</div>
+            <div class="sc-desc">Öffnet den Datei-Explorer <strong>sofort</strong>.</div>
+          </div>
+        </div>
+        <div class="merkbox">
+          💡 <strong>Merkhilfe:</strong> C = <em>C</em>opy · X = Schere (Kreuz) · V = klebt ein
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 8 – AUFGABE 1 -->
+    <section class="slide slide--aufgabe" id="slide-8" data-slide="8">
+      <div class="slide__content">
+        <div class="phase-badge phase--aufgabe">⚙️ Aufgabe 1 · Begriffe zuordnen · AB 1</div>
+        <h2 class="slide__heading">Was ist was? Ordne zu! <span class="mb-tag">[MB 1]</span></h2>
+        <p class="aufgabe-intro">Schreibe die passende Zahl in das Kästchen. <strong>Klicke auf eine Erklärung</strong>
+          um die Lösung aufzudecken! 👆</p>
+        <div class="zuordnung-layout">
+          <div class="zuordnung-col">
+            <div class="zu-header">Begriffe</div>
+            <div class="zu-item"><span class="zu-num">1</span> Datei</div>
+            <div class="zu-item"><span class="zu-num">2</span> Ordner</div>
+            <div class="zu-item"><span class="zu-num">3</span> Dateiname</div>
+            <div class="zu-item"><span class="zu-num">4</span> Dateiendung</div>
+            <div class="zu-item"><span class="zu-num">5</span> Datei-Explorer</div>
+            <div class="zu-item"><span class="zu-num">6</span> Schüleraccount</div>
+            <div class="zu-item"><span class="zu-num">7</span> Kopieren (Strg+C)</div>
+            <div class="zu-item"><span class="zu-num">8</span> Ausschneiden (Strg+X)</div>
+            <div class="zu-item"><span class="zu-num">9</span> Einfügen (Strg+V)</div>
+          </div>
+          <div class="zuordnung-col">
+            <div class="zu-header">Erklärungen</div>
+            <div class="zu-item zu-item--leer" data-answer="5"><span class="zu-box">[ ]</span> Das Programm in Windows,
+              mit dem ich Dateien und Ordner verwalte.</div>
+            <div class="zu-item zu-item--leer" data-answer="2"><span class="zu-box">[ ]</span> Ein Behälter für andere
+              Dateien oder Ordner – wie ein Hefter.</div>
+            <div class="zu-item zu-item--leer" data-answer="6"><span class="zu-box">[ ]</span> Mein persönlicher Bereich
+              auf dem Schulcomputer (H:\ oder S:\).</div>
+            <div class="zu-item zu-item--leer" data-answer="4"><span class="zu-box">[ ]</span> Die Abkürzung hinter dem
+              Punkt im Dateinamen, z. B. .docx oder .jpg.</div>
+            <div class="zu-item zu-item--leer" data-answer="1"><span class="zu-box">[ ]</span> Ein einzelnes
+              gespeichertes Dokument, Bild oder Programm.</div>
+            <div class="zu-item zu-item--leer" data-answer="3"><span class="zu-box">[ ]</span> Der selbst gewählte Name
+              einer Datei, z. B. „Meine_Geschichte".</div>
+            <div class="zu-item zu-item--leer" data-answer="9"><span class="zu-box">[ ]</span> Fügt die zuletzt kopierte
+              oder ausgeschnittene Datei an der neuen Stelle ein.</div>
+            <div class="zu-item zu-item--leer" data-answer="7"><span class="zu-box">[ ]</span> Datei wird dupliziert –
+              das Original bleibt am alten Ort erhalten.</div>
+            <div class="zu-item zu-item--leer" data-answer="8"><span class="zu-box">[ ]</span> Datei wird aus dem alten
+              Ort entfernt und woanders eingefügt.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 9 – AB 2: SPICKZETTEL -->
+    <section class="slide slide--aufgabe" id="slide-9" data-slide="9">
+      <div class="slide__content">
+        <div class="phase-badge phase--aufgabe">⚙️ Aufgabe 2 · Shortcuts-Spickzettel · AB 1</div>
+        <h2 class="slide__heading">Mein Shortcuts-Spickzettel <span class="mb-tag">[MB 1]</span></h2>
+        <p class="aufgabe-intro">Trage die fehlenden Informationen ein und schneide den Spickzettel aus – er hilft dir
+          in jeder Stunde!</p>
+        <div class="spickzettel">
+          <div class="sz-header">✂️ – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – –</div>
+          <div class="sz-title">📌 Mein Shortcuts-Spickzettel</div>
+          <div class="sz-table">
+            <div class="sz-row sz-row--head">
+              <span>Tastenkürzel</span><span>Aktion</span><span>Merkhilfe</span>
             </div>
-            <div class="beschrifte-item">
-              <span class="beschrifte-num">3</span>
-              <span class="spoiler">Inhaltsbereich</span>
+            <div class="sz-row">
+              <span><kbd>Strg</kbd>+<kbd>C</kbd></span>
+              <span><span class="spoiler">Kopieren</span></span>
+              <span>Original bleibt erhalten</span>
+            </div>
+            <div class="sz-row">
+              <span><kbd>Strg</kbd>+<kbd>X</kbd></span>
+              <span><span class="spoiler">Ausschneiden</span></span>
+              <span>Original wird entfernt</span>
+            </div>
+            <div class="sz-row">
+              <span><kbd>Strg</kbd>+<kbd>V</kbd></span>
+              <span><span class="spoiler">Einfügen</span></span>
+              <span>Fügt ein</span>
+            </div>
+            <div class="sz-row">
+              <span><kbd>Strg</kbd>+<kbd>Z</kbd></span>
+              <span>Rückgängig</span>
+              <span>Letzten Schritt zurück</span>
+            </div>
+            <div class="sz-row">
+              <span><kbd>Strg</kbd>+<kbd>A</kbd></span>
+              <span>Alles auswählen</span>
+              <span>Alle Dateien markieren</span>
+            </div>
+            <div class="sz-row">
+              <span><kbd>⊞</kbd>+<kbd>E</kbd></span>
+              <span>Datei-Explorer öffnen</span>
+              <span>Schnell in den Explorer</span>
             </div>
           </div>
-          <div class="merkbox" style="margin-top:1rem">💡 <strong>Tipp:</strong> Schaue dir nochmal Folie 4 an – dort haben wir den Explorer besprochen!</div>
-        </div>
-        <div class="screenshot-placeholder" id="sp-beschrifte">
-          <div class="sp-icon">📷</div>
-          <div class="sp-label">Screenshot: Datei-Explorer mit Nummern (1, 2, 3)</div>
-          <div class="sp-hint">Bild hier einfügen (Datei: explorer_num.png)</div>
-          <img src="explorer_num.png" alt="Datei-Explorer beschriften" />
+          <div class="sz-footer">✂️ – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – –</div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- SLIDE 12 – AB 5: ERWEITERUNG -->
-  <section class="slide slide--aufgabe" id="slide-12" data-slide="12">
-    <div class="slide__content">
-      <div class="phase-badge phase--erweiterung">⭐ Aufgabe 5 · Erweiterung · schnelle SuS</div>
-      <h2 class="slide__heading">Welches Programm öffnet diese Datei? <span class="mb-tag">[MB 1]</span></h2>
-      <p class="aufgabe-intro">Klicke auf das Programm, um es aufzudecken! 👆</p>
-      <div class="endungen-grid">
-        <div class="endungen-col">
-          <div class="endung-item"><span class="endung-tag">.docx</span></div>
-          <div class="endung-item"><span class="endung-tag">.pptx</span></div>
-          <div class="endung-item"><span class="endung-tag">.jpg / .png</span></div>
-          <div class="endung-item"><span class="endung-tag">.xlsx</span></div>
-          <div class="endung-item"><span class="endung-tag">.mp3</span></div>
-          <div class="endung-item"><span class="endung-tag">.pdf</span></div>
-        </div>
-        <div class="endungen-arrows">→<br/>→<br/>→<br/>→<br/>→<br/>→</div>
-        <div class="endungen-col">
-          <div class="prog-item"><span class="spoiler">🔵 Microsoft Word</span></div>
-          <div class="prog-item"><span class="spoiler">🟣 Microsoft PowerPoint</span></div>
-          <div class="prog-item"><span class="spoiler">🖼️ Bildbetrachter (Windows Fotos)</span></div>
-          <div class="prog-item"><span class="spoiler">🟠 Microsoft Excel</span></div>
-          <div class="prog-item"><span class="spoiler">🎵 Musikplayer</span></div>
-          <div class="prog-item"><span class="spoiler">🔴 Adobe Reader / Browser</span></div>
+    <!-- SLIDE 10 – AB 3: ORDNERSTRUKTUR -->
+    <section class="slide slide--aufgabe" id="slide-10" data-slide="10">
+      <div class="slide__content">
+        <div class="phase-badge phase--aufgabe">⚙️ Aufgabe 3 · Ordnerstruktur anlegen · AB 1 · EA 15 Min.</div>
+        <h2 class="slide__heading">Ordnerstruktur anlegen &amp; Shortcuts üben <span class="mb-tag">[MB 1, MB 5]</span>
+        </h2>
+        <div class="aufgabe2-layout">
+          <div class="schritte-col">
+            <div class="schritt-item schritt-item--ordner">
+              <span class="schritt-num">①</span>
+              <div><strong>Datei-Explorer öffnen</strong><br />Drücke <kbd>⊞</kbd> + <kbd>E</kbd></div>
+            </div>
+            <div class="schritt-item schritt-item--ordner">
+              <span class="schritt-num">②</span>
+              <div><strong>Schüleraccount öffnen</strong><br />Laufwerk H:\ oder S:\</div>
+            </div>
+            <div class="schritt-item schritt-item--ordner">
+              <span class="schritt-num">③</span>
+              <div><strong>Neuen Ordner anlegen:</strong><br /><code>Informatik_5</code></div>
+            </div>
+            <div class="schritt-item schritt-item--ordner">
+              <span class="schritt-num">④</span>
+              <div><strong>3 Unterordner erstellen:</strong><br /><code>Aufgaben</code> · <code>Praesentationen</code> ·
+                <code>Bilder</code></div>
+            </div>
+            <div class="schritt-item schritt-item--copy">
+              <span class="schritt-num">⑤</span>
+              <div>
+                <strong>KOPIEREN:</strong> Klicke eine Datei an →
+                <kbd>Strg</kbd>+<kbd>C</kbd> →
+                Ordner „Aufgaben" öffnen →
+                <kbd>Strg</kbd>+<kbd>V</kbd>
+                <div class="check-frage">✏️ Ist die Datei noch am alten Ort? <strong>Ja / Nein</strong></div>
+              </div>
+            </div>
+            <div class="schritt-item schritt-item--cut">
+              <span class="schritt-num">⑥</span>
+              <div>
+                <strong>AUSSCHNEIDEN:</strong> Dieselbe Datei →
+                <kbd>Strg</kbd>+<kbd>X</kbd> →
+                Ordner „Praesentationen" →
+                <kbd>Strg</kbd>+<kbd>V</kbd>
+                <div class="check-frage">✏️ Ist die Datei noch am alten Ort? <strong>Ja / Nein</strong></div>
+              </div>
+            </div>
+            <div class="schritt-item schritt-item--reflect">
+              <span class="schritt-num">⑦</span>
+              <div><strong>Erkläre den Unterschied in einem Satz:</strong><br />
+                <span class="spoiler" style="margin-top:.4rem;display:inline-block">Beim Kopieren bleibt die
+                  Originaldatei erhalten, beim Ausschneiden wird sie an den neuen Ort verschoben.</span>
+              </div>
+            </div>
+            <div class="schritt-item schritt-item--partner">
+              <span class="schritt-num">⑧</span>
+              <div><strong>Zeige deiner Sitznachbarin / deinem Sitznachbarn</strong> die Struktur. Kontrolliert
+                gegenseitig!</div>
+            </div>
+          </div>
+          <div class="struktur-viz">
+            <div class="viz-label">🗂️ Ziel-Struktur</div>
+            <div class="viz-tree">
+              <div class="vt-root">📁 Schüleraccount (H:\)</div>
+              <div class="vt-level1">📁 Informatik_5</div>
+              <div class="vt-level2">📁 Aufgaben</div>
+              <div class="vt-level2">📁 Praesentationen</div>
+              <div class="vt-level2">📁 Bilder</div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="loesung-hinweis">
-        💡 <strong>Tipp:</strong> Achte auf die Dateiendung – sie verrät dir, welches Programm du brauchst!
+    </section>
+
+
+    <!-- SLIDE 11 – AB 4: BESCHRIFTE DEN DATEI-EXPLORER -->
+    <section class="slide slide--aufgabe" id="slide-11" data-slide="11">
+      <div class="slide__content">
+        <div class="phase-badge phase--aufgabe">⚙️ Aufgabe 4 · Beschrifte den Datei-Explorer · AB 1</div>
+        <h2 class="slide__heading">Beschrifte den Datei-Explorer <span class="mb-tag">[MB 1]</span></h2>
+        <p class="aufgabe-intro">Die drei Bereiche im Datei-Explorer sind mit Nummern markiert. Schreibe den richtigen
+          Begriff aus dem Wortkasten in die Zeile.</p>
+        <div class="explorer-split">
+          <div class="explorer-info">
+            <div class="merkbox" style="margin-bottom:1rem">📓 <strong>Wortkasten:</strong> &nbsp; Adressleiste
+              &nbsp;·&nbsp; Navigationsbereich &nbsp;·&nbsp; Inhaltsbereich</div>
+            <div class="beschrifte-grid">
+              <div class="beschrifte-item">
+                <span class="beschrifte-num">1</span>
+                <span class="spoiler">Adressleiste</span>
+              </div>
+              <div class="beschrifte-item">
+                <span class="beschrifte-num">2</span>
+                <span class="spoiler">Navigationsbereich</span>
+              </div>
+              <div class="beschrifte-item">
+                <span class="beschrifte-num">3</span>
+                <span class="spoiler">Inhaltsbereich</span>
+              </div>
+            </div>
+            <div class="merkbox" style="margin-top:1rem">💡 <strong>Tipp:</strong> Schaue dir nochmal Folie 4 an – dort
+              haben wir den Explorer besprochen!</div>
+          </div>
+          <div class="screenshot-placeholder" id="sp-beschrifte">
+            <div class="sp-icon">📷</div>
+            <div class="sp-label">Screenshot: Datei-Explorer mit Nummern (1, 2, 3)</div>
+            <div class="sp-hint">Bild hier einfügen (Datei: explorer_num.png)</div>
+            <img src="explorer_num.png" alt="Datei-Explorer beschriften" />
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- SLIDE 13 – AB 6: MERKREGEL -->
-  <section class="slide slide--aufgabe" id="slide-13" data-slide="13">
-    <div class="slide__content">
-      <div class="phase-badge phase--abschluss">📝 Aufgabe 6 · Merkregel · Sicherung &amp; Abschluss</div>
-      <h2 class="slide__heading">Meine Merkregel <span class="mb-tag">[MB 6]</span></h2>
-      <p class="aufgabe-intro">Ergänze die Sätze in deinem Arbeitsblatt:</p>
-      <div class="merkregel-grid">
-        <div class="merkregel-item">
-          <span class="mr-num">①</span>
-          <span>Ein Ordner ist wie ein <span class="spoiler">ein Hefter / eine Schublade</span>, weil er <span class="spoiler">Dateien und andere Ordner enthält</span>.</span>
+    <!-- SLIDE 12 – AB 5: ERWEITERUNG -->
+    <section class="slide slide--aufgabe" id="slide-12" data-slide="12">
+      <div class="slide__content">
+        <div class="phase-badge phase--erweiterung">⭐ Aufgabe 5 · Erweiterung · schnelle SuS</div>
+        <h2 class="slide__heading">Welches Programm öffnet diese Datei? <span class="mb-tag">[MB 1]</span></h2>
+        <p class="aufgabe-intro">Klicke auf das Programm, um es aufzudecken! 👆</p>
+        <div class="endungen-grid">
+          <div class="endungen-col">
+            <div class="endung-item"><span class="endung-tag">.docx</span></div>
+            <div class="endung-item"><span class="endung-tag">.pptx</span></div>
+            <div class="endung-item"><span class="endung-tag">.jpg / .png</span></div>
+            <div class="endung-item"><span class="endung-tag">.xlsx</span></div>
+            <div class="endung-item"><span class="endung-tag">.mp3</span></div>
+            <div class="endung-item"><span class="endung-tag">.pdf</span></div>
+          </div>
+          <div class="endungen-arrows">→<br />→<br />→<br />→<br />→<br />→</div>
+          <div class="endungen-col">
+            <div class="prog-item"><span class="spoiler">🔵 Microsoft Word</span></div>
+            <div class="prog-item"><span class="spoiler">🟣 Microsoft PowerPoint</span></div>
+            <div class="prog-item"><span class="spoiler">🖼️ Bildbetrachter (Windows Fotos)</span></div>
+            <div class="prog-item"><span class="spoiler">🟠 Microsoft Excel</span></div>
+            <div class="prog-item"><span class="spoiler">🎵 Musikplayer</span></div>
+            <div class="prog-item"><span class="spoiler">🔴 Adobe Reader / Browser</span></div>
+          </div>
         </div>
-        <div class="merkregel-item">
-          <span class="mr-num">②</span>
-          <span>Eine Datei erkenne ich an ihrer Dateiendung, z. B. <code>.docx</code> steht für <span class="spoiler">Microsoft Word Dokument</span>.</span>
-        </div>
-        <div class="merkregel-item">
-          <span class="mr-num">③</span>
-          <span>Beim Benennen von Dateien achte ich auf: <span class="spoiler">aussagekräftiger Name, keine Sonderzeichen, passende Endung</span>.</span>
-        </div>
-        <div class="merkregel-item">
-          <span class="mr-num">④</span>
-          <span>Den Datei-Explorer öffne ich mit: <span class="spoiler">⊞ Windows</span> + <span class="spoiler">E</span>.</span>
-        </div>
-        <div class="merkregel-item">
-          <span class="mr-num">⑤</span>
-          <span>Beim <strong>Kopieren</strong> bleibt das Original <span class="spoiler">erhalten (Kopie wird erstellt)</span>, beim <strong>Ausschneiden</strong> wird es <span class="spoiler">entfernt und woanders eingefügt</span>.</span>
+        <div class="loesung-hinweis">
+          💡 <strong>Tipp:</strong> Achte auf die Dateiendung – sie verrät dir, welches Programm du brauchst!
         </div>
       </div>
+    </section>
 
-    </div>
-  </section>
+    <!-- SLIDE 13 – AB 6: MERKREGEL -->
+    <section class="slide slide--aufgabe" id="slide-13" data-slide="13">
+      <div class="slide__content">
+        <div class="phase-badge phase--abschluss">📝 Aufgabe 6 · Merkregel · Sicherung &amp; Abschluss</div>
+        <h2 class="slide__heading">Meine Merkregel <span class="mb-tag">[MB 6]</span></h2>
+        <p class="aufgabe-intro">Ergänze die Sätze in deinem Arbeitsblatt:</p>
+        <div class="merkregel-grid">
+          <div class="merkregel-item">
+            <span class="mr-num">①</span>
+            <span>Ein Ordner ist wie ein <span class="spoiler">ein Hefter / eine Schublade</span>, weil er <span
+                class="spoiler">Dateien und andere Ordner enthält</span>.</span>
+          </div>
+          <div class="merkregel-item">
+            <span class="mr-num">②</span>
+            <span>Eine Datei erkenne ich an ihrer Dateiendung, z. B. <code>.docx</code> steht für <span
+                class="spoiler">Microsoft Word Dokument</span>.</span>
+          </div>
+          <div class="merkregel-item">
+            <span class="mr-num">③</span>
+            <span>Beim Benennen von Dateien achte ich auf: <span class="spoiler">aussagekräftiger Name, keine
+                Sonderzeichen, passende Endung</span>.</span>
+          </div>
+          <div class="merkregel-item">
+            <span class="mr-num">④</span>
+            <span>Den Datei-Explorer öffne ich mit: <span class="spoiler">⊞ Windows</span> + <span
+                class="spoiler">E</span>.</span>
+          </div>
+          <div class="merkregel-item">
+            <span class="mr-num">⑤</span>
+            <span>Beim <strong>Kopieren</strong> bleibt das Original <span class="spoiler">erhalten (Kopie wird
+                erstellt)</span>, beim <strong>Ausschneiden</strong> wird es <span class="spoiler">entfernt und woanders
+                eingefügt</span>.</span>
+          </div>
+        </div>
 
-</div>
+      </div>
+    </section>
 
-<!-- Navigation -->
-<nav class="nav" id="nav">
-  <button class="nav__btn" id="btn-prev" aria-label="Zurück">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
-  </button>
-  <div class="nav__center">
-    <div class="nav__dots" id="nav-dots"></div>
-    <div class="nav__counter"><span id="current-slide">1</span> / <span id="total-slides">13</span></div>
   </div>
-  <button class="nav__btn" id="btn-next" aria-label="Weiter">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <button class="nav__btn" id="btn-prev" aria-label="Zurück">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <polyline points="15 18 9 12 15 6" />
+      </svg>
+    </button>
+    <div class="nav__center">
+      <div class="nav__dots" id="nav-dots"></div>
+      <div class="nav__counter"><span id="current-slide">1</span> / <span id="total-slides">13</span></div>
+    </div>
+    <button class="nav__btn" id="btn-next" aria-label="Weiter">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <polyline points="9 18 15 12 9 6" />
+      </svg>
+    </button>
+  </nav>
+
+  <button class="fullscreen-btn" id="btn-fs" title="Vollbild (F)">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3" />
+    </svg>
   </button>
-</nav>
 
-<button class="fullscreen-btn" id="btn-fs" title="Vollbild (F)">
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
-</button>
-
-<div class="progress-bar" id="progress-bar"></div>
-<script src="script.js"></script>
+  <div class="progress-bar" id="progress-bar"></div>
+  <script src="script.js"></script>
 </body>
+
 </html>
